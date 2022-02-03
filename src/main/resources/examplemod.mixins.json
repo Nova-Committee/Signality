@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "committee.nova.examplemod.mixin",
+  "package": "committee.nova.signality.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],

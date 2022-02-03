@@ -1,4 +1,4 @@
-package committee.nova.examplemod;
+package committee.nova.signality;
 
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.item.Items;
@@ -13,12 +13,14 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod("examplemod")
-public class ExampleMod {
+@Mod(Signality.MODID)
+public class Signality {
 
     public static final Logger LOGGER = LogManager.getLogger();
 
-    public ExampleMod() {
+    public static final String MODID = "signality";
+
+    public Signality() {
 
         // This is our mod's event bus, used for things like registry or lifecycle events
         IEventBus MOD_BUS = FMLJavaModLoadingContext.get().getModEventBus();

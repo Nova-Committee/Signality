@@ -1,2 +1,3 @@
-# QuiltifiedForgery
-A template for setting up Forge projects with Quilt Mappings.
+# Signality
+
+Don't you think that chatting between thousands of blocks is not realistic?

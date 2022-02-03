@@ -1,7 +1,7 @@
-package committee.nova.examplemod.mixin;
+package committee.nova.signality.mixin;
 
-import committee.nova.examplemod.ExampleMod;
-import net.minecraft.client.gui.screens.TitleScreen;
+import committee.nova.signality.Signality;
+import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
     @Inject(at = @At("HEAD"), method = "init()V")
     private void init(CallbackInfo info) {
-        ExampleMod.LOGGER.info("This line is printed by an example mod mixin!");
+        Signality.LOGGER.info("This line is printed by an example mod mixin!");
     }
 }
